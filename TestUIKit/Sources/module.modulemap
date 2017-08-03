@@ -1,0 +1,12 @@
+module CustomMath [system] {
+    //由于module.modulemap和CustomMath.h是在同一个文件夹的，如果不是同一个，路径要写全
+    header "CustomMath.h"
+    export *
+}
+
+module OCBridgingHeader [system] {
+    //由于module.modulemap和CustomMath.h是在同一个文件夹的，如果不是同一个，路径要写全
+    header "OCBridgingHeader.h"
+    export *
+}
+
